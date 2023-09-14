@@ -1,0 +1,44 @@
+@font-face {
+    font-family: MyFont;
+    src: url("../style/font/Roboto/Roboto-Regular.ttf");
+}
+html{
+    background-color: aqua;
+    font-family: 'MyFont', 'Ariya', sans-serif;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+h1{
+    color: tomato;
+}
+h2{
+    color: green;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: blueviolet;
+}
+.img1{ 
+    width: 300px;
+}
+.border{
+    border: 5px solid grey;
+}
+.img2{
+    width: 700px;
+}
+.big{
+    font-size: 1.5rem;
+
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+}
+
